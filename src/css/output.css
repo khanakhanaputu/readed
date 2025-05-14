@@ -278,9 +278,6 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .font-sans {
-    font-family: var(--font-sans);
-  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
