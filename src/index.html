@@ -6,175 +6,186 @@
     <link rel="stylesheet" href="./css/output.css" />
     <title>Readed</title>
   </head>
-  <body>
-    <nav class="bg-black text-white py-5 font-montserrat">
-      <div class="flex justify-between items-center max-w-7xl mx-auto">
-        <img
-          src="../public/logo/logo-white.png"
-          alt="logo"
-          class="w-[200px] h-auto"
-        />
-        <form action="" class="relative">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#000"
-            class="size-5 absolute top-1/2 -translate-y-1/2 left-3"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
-              clip-rule="evenodd"
-            />
-          </svg>
+  <body class="bg-[#F6F6F9]">
+    <nav class="bg-[F6F6F9] py-5 font-montserrat">
+      <div class="flex justify-between items-center max-w-[1400px] mx-auto">
+        <h1 class="capitalize text-3xl font-extrabold">readed</h1>
 
-          <input
-            class="bg-white text-black focus:outline-none px-9 w-[533px] py-3 text-sm"
-            type="text"
-            placeholder="Cari..."
-          />
-        </form>
+        <div class="capitalize flex gap-12">
+          <a href="">gaming</a>
+          <a href="">news</a>
+          <a href="">brainrot</a>
+          <a href="">others</a>
+        </div>
         <button
-          class="bg-white py-3 px-4 text-black font-bold capitalize text-sm cursor-pointer hover:shadow-[3px_3px_0_0_white] hover:bg-transparent hover:text-white border border-white duration-150"
+          class="bg-[#537FE7] py-3 px-6 text-white capitalize text-sm cursor-pointer font-semibold shadow-[4px_4px_0_0_black]"
         >
           mulai ngeblog!
         </button>
       </div>
     </nav>
 
-    <main class="max-w-7xl mx-auto mt-5">
-      <!--? section popular -->
-      <section class="flex gap-10 font-inter">
-        <div class="w-2/3">
-          <img
-            src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
-            alt="thumnail-blog"
-            class="aspect-video object-cover border-2 border-black"
-          />
-          <span
-            class="bg-black text-white py-1 px-4 capitalize text-xs my-2.5 inline-block"
-            >game
-          </span>
-          <h1 class="text-3xl font-semibold font-inter">
-            GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-          </h1>
-          <p class="text-xs mt-1">2 hari yang lalu</p>
+    <main class="max-w-[1400px] mx-auto mt-5">
+      <!--? hero section -->
+      <section class="flex flex-col items-center my-20">
+        <div class="text-center uppercase font-roboto mb-16">
+          <h3 class="text-4xl font-light">read</h3>
+          <h1 class="text-9xl font-black my-1.5">everything</h1>
+          <h3 class="text-3xl font-light">right now &amp; here</h3>
         </div>
+        <form action="">
+          <input
+            class="bg-white border border-black text-black focus:outline-none px-5 w-[778px] py-3 text-xl font-montserrat"
+            type="text"
+            placeholder="Cari..."
+          />
+          <button
+            class="bg-[#537FE7] py-3 px-6 text-white capitalize font-montserrat cursor-pointer text-xl shadow-[4px_4px_0_0_black]"
+          >
+            search
+          </button>
+        </form>
+      </section>
+      <!--? section popular -->
+      <section class="font-inter">
+        <h1
+          class="font-montserrat text-3xl capitalize font-semibold whitespace-nowrap mr-5"
+        >
+          blog popular
+        </h1>
 
-        <div class="w-1/3 flex flex-col gap-5">
-          <div class="flex gap-2.5 items-stretch">
+        <div class="flex gap-10 mt-5">
+          <div class="w-2/3">
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              class="aspect-video object-cover border-2 border-black"
             />
-            <div class="flex flex-col justify-between">
-              <div>
-                <span
-                  class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
-                >
-                  game
-                </span>
-                <h1 class="font-semibold text-sm">
-                  GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-                </h1>
-              </div>
-              <span class="text-xs">2 hari yang lalu</span>
-            </div>
+            <span
+              class="bg-black text-white py-1 px-4 capitalize text-xs my-2.5 inline-block"
+              >game
+            </span>
+            <h1 class="text-3xl font-semibold font-inter">
+              GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+            </h1>
+            <p class="text-xs mt-1">2 hari yang lalu</p>
           </div>
 
-          <div class="flex gap-2.5 items-stretch">
-            <img
-              src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
-              alt="thumnail-blog"
-              class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
-            />
-            <div class="flex flex-col justify-between">
-              <div>
-                <span
-                  class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
-                >
-                  game
-                </span>
-                <h1 class="font-semibold text-sm">
-                  GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-                </h1>
+          <div class="w-1/3 flex flex-col gap-5">
+            <div class="flex gap-2.5 items-stretch">
+              <img
+                src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+                alt="thumnail-blog"
+                class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              />
+              <div class="flex flex-col justify-between">
+                <div>
+                  <span
+                    class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
+                  >
+                    game
+                  </span>
+                  <h1 class="font-semibold text-sm">
+                    GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+                  </h1>
+                </div>
+                <span class="text-xs">2 hari yang lalu</span>
               </div>
-              <span class="text-xs">2 hari yang lalu</span>
             </div>
-          </div>
 
-          <div class="flex gap-2.5 items-stretch">
-            <img
-              src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
-              alt="thumnail-blog"
-              class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
-            />
-            <div class="flex flex-col justify-between">
-              <div>
-                <span
-                  class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
-                >
-                  game
-                </span>
-                <h1 class="font-semibold text-sm">
-                  GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-                </h1>
+            <div class="flex gap-2.5 items-stretch">
+              <img
+                src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+                alt="thumnail-blog"
+                class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              />
+              <div class="flex flex-col justify-between">
+                <div>
+                  <span
+                    class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
+                  >
+                    game
+                  </span>
+                  <h1 class="font-semibold text-sm">
+                    GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+                  </h1>
+                </div>
+                <span class="text-xs">2 hari yang lalu</span>
               </div>
-              <span class="text-xs">2 hari yang lalu</span>
             </div>
-          </div>
 
-          <div class="flex gap-2.5 items-stretch">
-            <img
-              src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
-              alt="thumnail-blog"
-              class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
-            />
-            <div class="flex flex-col justify-between">
-              <div>
-                <span
-                  class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
-                >
-                  game
-                </span>
-                <h1 class="font-semibold text-sm">
-                  GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-                </h1>
+            <div class="flex gap-2.5 items-stretch">
+              <img
+                src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+                alt="thumnail-blog"
+                class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              />
+              <div class="flex flex-col justify-between">
+                <div>
+                  <span
+                    class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
+                  >
+                    game
+                  </span>
+                  <h1 class="font-semibold text-sm">
+                    GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+                  </h1>
+                </div>
+                <span class="text-xs">2 hari yang lalu</span>
               </div>
-              <span class="text-xs">2 hari yang lalu</span>
             </div>
-          </div>
 
-          <div class="flex gap-2.5 items-stretch">
-            <img
-              src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
-              alt="thumnail-blog"
-              class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
-            />
-            <div class="flex flex-col justify-between">
-              <div>
-                <span
-                  class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
-                >
-                  game
-                </span>
-                <h1 class="font-semibold text-sm">
-                  GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
-                </h1>
+            <div class="flex gap-2.5 items-stretch">
+              <img
+                src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+                alt="thumnail-blog"
+                class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              />
+              <div class="flex flex-col justify-between">
+                <div>
+                  <span
+                    class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
+                  >
+                    game
+                  </span>
+                  <h1 class="font-semibold text-sm">
+                    GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+                  </h1>
+                </div>
+                <span class="text-xs">2 hari yang lalu</span>
               </div>
-              <span class="text-xs">2 hari yang lalu</span>
+            </div>
+
+            <div class="flex gap-2.5 items-stretch">
+              <img
+                src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+                alt="thumnail-blog"
+                class="w-[140px] h-[100px] max-w-32 object-cover border border-black"
+              />
+              <div class="flex flex-col justify-between">
+                <div>
+                  <span
+                    class="bg-black text-white py-1 px-4 capitalize text-xs inline-block border-black border"
+                  >
+                    game
+                  </span>
+                  <h1 class="font-semibold text-sm">
+                    GTA 6 Luncurkan Trailer Baru Tunjukkan Main Story di Game
+                  </h1>
+                </div>
+                <span class="text-xs">2 hari yang lalu</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!--? section artikel perbaru -->
-      <section class="mt-10">
+      <section class="mt-20">
         <h1
           class="font-montserrat text-3xl capitalize font-semibold whitespace-nowrap mr-5"
         >
-          artikel terbaru
+          blog terbaru
         </h1>
 
         <div class="mt-5 grid-cols-4 grid gap-8">
@@ -184,7 +195,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -207,7 +218,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -230,7 +241,7 @@
             <img
               src="../public/image/xbox.webp"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -253,7 +264,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -276,7 +287,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -299,7 +310,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -322,7 +333,7 @@
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -343,9 +354,9 @@
             class="flex flex-col items-stretch w-auto h-auto border-2 border-b-4 border-black"
           >
             <img
-              src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
+              src="https://plus.unsplash.com/premium_photo-1747135794086-280753a24793?q=80&w=2774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="thumnail-blog"
-              class="aspect-video"
+              class="aspect-video object-cover"
             />
             <div class="h-full flex flex-col justify-between p-2.5 gap-2.5">
               <div>
@@ -362,6 +373,11 @@
             </div>
           </div>
         </div>
+        <button
+          class="max-w-2xl border w-full mx-auto my-10 block py-3 hover:shadow-[4px_4px_0_0_black] duration-200 border-b-4 font-semibold capitalize"
+        >
+          Tampilkan Lebih Banyak
+        </button>
       </section>
     </main>
   </body>
