@@ -7,11 +7,11 @@
     <title>Readed</title>
   </head>
   <body class="bg-[#F6F6F9]">
-    <nav class="bg-[F6F6F9] py-5 font-montserrat">
+    <nav class="bg-[F6F6F9] py-5 px-5 md:px-0 font-montserrat">
       <div class="flex justify-between items-center max-w-[1400px] mx-auto">
         <h1 class="capitalize text-3xl font-extrabold">readed</h1>
 
-        <div class="capitalize flex gap-12">
+        <div class="capitalize hidden md:flex gap-12">
           <a href="">gaming</a>
           <a href="">news</a>
           <a href="">brainrot</a>
@@ -25,17 +25,17 @@
       </div>
     </nav>
 
-    <main class="max-w-[1400px] mx-auto mt-5">
+    <main class="w-full px-5 md:px-0 md:max-w-[1400px] mx-auto mt-5">
       <!--? hero section -->
-      <section class="flex flex-col items-center my-20">
-        <div class="text-center uppercase font-roboto mb-16">
-          <h3 class="text-4xl font-light">read</h3>
-          <h1 class="text-9xl font-black my-1.5">everything</h1>
-          <h3 class="text-3xl font-light">right now &amp; here</h3>
+      <section class="flex flex-col items-center my-10 md:my-20">
+        <div class="text-center uppercase font-roboto mb-10 md:mb-16">
+          <h3 class="text-xl md:text-4xl font-light">read</h3>
+          <h1 class="text-5xl md:text-9xl font-black my-1.5">everything</h1>
+          <h3 class="text-xl md:text-3xl font-light">right now &amp; here</h3>
         </div>
-        <form action="">
+        <form action="" class="flex gap-2">
           <input
-            class="bg-white border border-black text-black focus:outline-none px-5 w-[778px] py-3 text-xl font-montserrat"
+            class="bg-white border border-black text-black focus:outline-none px-5 w-full md:w-[778px] py-3 text-xl font-montserrat"
             type="text"
             placeholder="Cari..."
           />
@@ -54,8 +54,8 @@
           blog popular
         </h1>
 
-        <div class="flex gap-10 mt-5">
-          <div class="w-2/3">
+        <div class="flex flex-col md:flex-row gap-10 mt-5">
+          <div class="md:w-2/3">
             <img
               src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
               alt="thumnail-blog"
@@ -71,7 +71,7 @@
             <p class="text-xs mt-1">2 hari yang lalu</p>
           </div>
 
-          <div class="w-1/3 flex flex-col gap-5">
+          <div class="md:w-1/3 flex flex-col gap-5">
             <div class="flex gap-2.5 items-stretch">
               <img
                 src="../public/image/Jason_and_Lucia_02_With_Logos_landscape.jpg"
@@ -180,7 +180,7 @@
         </div>
       </section>
 
-      <!--? section artikel perbaru -->
+      <!--? section artikel terbaru -->
       <section class="mt-20">
         <h1
           class="font-montserrat text-3xl capitalize font-semibold whitespace-nowrap mr-5"
@@ -188,7 +188,7 @@
           blog terbaru
         </h1>
 
-        <div class="mt-5 grid-cols-4 grid gap-8">
+        <div class="mt-5 flex flex-wrap md:grid-cols-4 md:grid gap-8">
           <div
             class="flex flex-col items-stretch w-auto h-auto border-2 border-b-4 border-black"
           >
