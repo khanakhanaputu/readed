@@ -27,4 +27,7 @@ menuBtn.addEventListener("click", () => {
 overlay.addEventListener("click", () => {
   sidebar.classList.add("translate-x-full");
   overlay.classList.add("hidden");
+  body.classList.remove("overflow-hidden");
+  body.classList.add("overflow-scroll");
+  menuIcon.src = "../public/icons/menu.svg";
 });
