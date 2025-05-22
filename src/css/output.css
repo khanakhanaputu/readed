@@ -560,9 +560,6 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
-  .pb-20 {
-    padding-bottom: calc(var(--spacing) * 20);
-  }
   .pb-40 {
     padding-bottom: calc(var(--spacing) * 40);
   }
